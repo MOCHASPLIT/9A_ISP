@@ -1,0 +1,39 @@
+export enum RabbitMQ {
+  UserQueue = 'users',
+  ProcesoQueue = 'procesos',
+  FlujoProcesoQueue = 'flujoProcesos',
+  ProcesoDeterminadoQueue = 'procesoDeterminados',
+}
+
+export enum UserMSG {
+  CREATE = 'CREATE_USER',
+  FIND_ALL = 'FIND_USERS',
+  FIND_ONE = 'FIND_USER',
+  UPDATE = 'UPDATE_USER',
+  DELETE = 'DELETE_USER',
+  VALID_USER = 'VALID_USER',
+}
+
+export enum ProcesoMSG {
+  CREATE = 'CREATE_PROCESO',
+  FIND_ALL = 'FIND_PROCESOS',
+  FIND_ONE = 'FIND_PROCESO',
+  UPDATE = 'UPDATE_PROCESO',
+  DELETE = 'DELETE_PROCESO',
+}
+
+export enum FlujoProcesoMSG {
+  CREATE = 'CREATE_FLUJO_PROCESO',
+  FIND_ALL = 'FIND_FLUJO_PROCESOS',
+  FIND_ONE = 'FIND_FLUJO_PROCESO',
+  UPDATE = 'UPDATE_FLUJO_PROCESO',
+  DELETE = 'DELETE_FLUJO_PROCESO',
+}
+
+export enum ProcesoDeterminadoMSG {
+  CREATE = 'CREATE_PROCESO_DETERMINADO',
+  FIND_ALL = 'FIND_PROCESO_DETERMINADOS',
+  FIND_ONE = 'FIND_PROCESO_DETERMINADO',
+  UPDATE = 'UPDATE_PROCESO_DETERMINADO',
+  DELETE = 'DELETE_PROCESO_DETERMINADO',
+}
